@@ -1,18 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestReportingApp", "QuestReportingApp\QuestReportingApp.csproj", "{FB7BCC4C-1250-4DBE-BEF9-30BD9C8003D5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestReportingApp.Tests", "QuestReportingApp.Tests\QuestReportingApp.Tests.csproj", "{3320CCCF-A4A6-42EA-9E05-8E683D56E4FC}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{975A5B2F-78F2-45AC-8B3A-6BC7FCBC68E9}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestReportingApp", "QuestReportingApp\QuestReportingApp.csproj", "{FB7BCC4C-1250-4DBE-BEF9-30BD9C8003D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestReportingApp.Tests", "QuestReportingApp.Tests\QuestReportingApp.Tests.csproj", "{3320CCCF-A4A6-42EA-9E05-8E683D56E4FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
