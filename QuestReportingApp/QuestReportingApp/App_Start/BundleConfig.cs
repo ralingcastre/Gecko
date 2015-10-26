@@ -9,7 +9,7 @@ namespace QuestReportingApp
         public static void RegisterBundles(BundleCollection bundles)
         {
 
-            bundles.Add(new StyleBundle("~/Content/css").Include(
+            bundles.Add(new StyleBundle("~/Content/basestyle").Include(
                "~/Content/css/bootstrap.css",
                "~/Content/css/material.css",
                "~/Content/css/ripples.css",
@@ -55,6 +55,12 @@ namespace QuestReportingApp
                 "~/Content/js/lib/angular-resource.min.js",
                 "~/Content/js/qrApp.js"
             ));
+
+            #if DEBUG
+                BundleTable.EnableOptimizations = false;
+            #else
+                BundleTable.EnableOptimizations = true;
+            #endif
 
         }
     }
