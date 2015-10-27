@@ -11,10 +11,12 @@ namespace QuestReportingApp
 
             bundles.Add(new StyleBundle("~/Content/basestyle").Include(
                "~/Content/css/bootstrap.css",
+               "~/Content/css/metisMenu.css",
+               "~/Content/css/sb-admin-2.css",
                "~/Content/css/material.css",
                "~/Content/css/ripples.css",
                "~/Content/css/roboto.css",
-               "~/Content/site.css"
+               "~/Content/css/font-awesome.css"
             ));
 
             /*

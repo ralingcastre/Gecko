@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Welcome";
+}
+
+@section featured {
+
+}
+
+@using (Html.BeginForm())
+{
+    <section data-ng-view class="clearfix"></section>
+}
+
+
+
+@section pageEnd {
+    @{
+        Html.RenderPartial("_Templates");
+    }
+}

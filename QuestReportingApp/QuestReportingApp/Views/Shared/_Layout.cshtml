@@ -13,28 +13,27 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="images/gumtree_apple_icon.png">
+    <base href="/">
     <!-- Place favicon.ico in the root directory -->
     @Styles.Render("~/Content/basestyle")
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
 </head>
 <body>
-    <!--[if lt IE 8]>
+    <!--[if lt IE 9]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    @{ Html.RenderPartial("_Header");  }
-
-    <div id="main">
+    <div id="wrapper">
         @RenderSection("featured", required: false)
-        
         @RenderBody()
     </div>
 
-
     @{ Html.RenderPartial("_Footer"); }
-
     @Scripts.Render("~/bundles/base")
     @RenderSection("scripts", required: false)
-
-    @{ Html.RenderPartial("_Templates"); }
+    @RenderSection("pageEnd", required: false)
+    
 </body>
 </html>
