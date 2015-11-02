@@ -11,12 +11,13 @@ namespace QuestReportingApp
 
             bundles.Add(new StyleBundle("~/Content/basestyle").Include(
                "~/Content/css/bootstrap.css",
+               "~/Content/css/font-awesome.css",
                "~/Content/css/metisMenu.css",
                "~/Content/css/sb-admin-2.css",
-               "~/Content/css/material.css",
-               "~/Content/css/ripples.css",
-               "~/Content/css/roboto.css",
-               "~/Content/css/font-awesome.css"
+               //"~/Content/css/material.css",
+               //"~/Content/css/ripples.css",
+               //"~/Content/css/roboto.css",
+               "~/Content/css/morris.css"
             ));
 
             /*
@@ -50,8 +51,11 @@ namespace QuestReportingApp
             bundles.Add(new ScriptBundle("~/bundles/base").Include(
                 "~/Content/js/lib/jquery-2.1.4.min.js",
                 "~/Content/js/lib/bootstrap.min.js",
-                "~/Content/js/lib/material.min.js",
-                "~/Content/js/lib/ripples.min.js",
+                "~/Content/js/lib/metisMenu.js",
+                "~/Content/js/lib/raphael.js",
+                "~/Content/js/lib/morris.js",
+                //"~/Content/js/lib/material.min.js",
+                //"~/Content/js/lib/ripples.min.js",
                 "~/Content/js/lib/angular.min.js",
                 "~/Content/js/lib/angular-route.min.js",
                 "~/Content/js/lib/angular-resource.min.js",

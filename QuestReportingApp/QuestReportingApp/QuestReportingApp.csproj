@@ -227,6 +227,7 @@
     <Content Include="Content\css\font-awesome.css" />
     <Content Include="Content\css\material.css" />
     <Content Include="Content\css\metisMenu.css" />
+    <Content Include="Content\css\morris.css" />
     <Content Include="Content\css\ripples.css" />
     <Content Include="Content\css\roboto.css" />
     <Content Include="Content\css\sb-admin-2.css" />
@@ -240,8 +241,12 @@
     <Content Include="Content\js\lib\bootstrap.min.js" />
     <Content Include="Content\js\lib\jquery-2.1.4.min.js" />
     <Content Include="Content\js\lib\material.min.js" />
+    <Content Include="Content\js\lib\metisMenu.js" />
+    <Content Include="Content\js\lib\morris.js" />
+    <Content Include="Content\js\lib\raphael.js" />
     <Content Include="Content\js\lib\ripples.min.js" />
     <Content Include="Content\js\qrApp.js" />
+    <Content Include="Content\js\sampleData.js" />
     <Content Include="Content\themes\base\accordion.css" />
     <Content Include="Content\themes\base\all.css" />
     <Content Include="Content\themes\base\autocomplete.css" />
@@ -363,6 +368,9 @@
     <Content Include="Views\Shared\_Templates.cshtml" />
     <Content Include="Views\Dashboard\Index.cshtml" />
     <Content Include="Views\Shared\_Dashboard.cshtml" />
+    <Content Include="Views\Shared\_LayoutPrivate.cshtml" />
+    <Content Include="Views\Shared\_NavTopRight.cshtml" />
+    <Content Include="Views\Shared\_NavLeft.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

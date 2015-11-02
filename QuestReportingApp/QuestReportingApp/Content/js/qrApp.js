@@ -11,10 +11,18 @@ angular.module('qrApp', [ 'ngRoute']).
             })
             .otherwise({ redirectTo: '/' });
 
+        // use html5 mode
         if (window.history && window.history.pushState) {
             $locationProvider.html5Mode(true);
         }
     }])
     .controller('dashboardCtrl', ['$scope', function ($scope) {
-        $scope.greeting = 'Hola!';
+
+        $scope.greeting = 'Hi FirstName'; // replace this with logged in user first name
+
+        // on view ready
+        $scope.$on('$viewContentLoaded', function () {
+            $('#side-menu').metisMenu();
+        });
+
     }]);
