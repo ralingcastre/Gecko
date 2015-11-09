@@ -1,0 +1,115 @@
+﻿
+<div id="page-wrapper" class="page-content add-student">
+    <div class="jumbotron">
+        <h2>Add Students/Participants</h2>
+        <h4>Import CSV</h4>
+        <p>
+            You can bulk import a group of students using the preformatted CSV file and
+            uploading it from your computer. If you dont have one download it here.
+        </p>
+        <div class="clearfix">
+            <label for="csvUpload" >
+                Select a CSV file <input id="csvUpload" type="file" class="btn btn-default btn-file">
+            </label>
+            <button type="button" class="btn btn-lg btn-primary">Import</button>
+            <button type="button" class="btn btn-lg btn-default">Cancel</button>
+        </div>
+    </div>
+
+    <div class="page-header">
+        <h2>Add Manually</h2>
+        <p>You can add students manually, one at a time using the form below.</p>
+    </div>
+
+    <section class="section--form form-horizontal">
+
+        <div class="form-group">
+            <label for="testPeriodId" class="col-sm-2 control-label">Test Period ID</label>
+            <div class="col-sm-10">
+                <select id="testPeriodId" class="form-control">
+                    <option>select</option>
+                    <option value="31-03-2015">31 Mar 2015</option>
+                    <option value="14-09-2015">31 Sep 2015</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="studentId" class="col-sm-2 control-label">Student ID</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="studentId">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="firstName" class="col-sm-2 control-label">First Name</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="firstName">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="lastName" class="col-sm-2 control-label">Last Name</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="lastName">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="nickname" class="col-sm-2 control-label">Nickname (Optional)</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="nickname">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="gender" class="col-sm-2 control-label">Gender</label>
+            <div class="col-sm-10">
+                <select id="gender" class="form-control">
+                    <option>select</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="age" class="col-sm-2 control-label">Age</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="age">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="birthday" class="col-sm-2 control-label">Birthday</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="birthday">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="LBOTE" class="col-sm-2 control-label">LBOTE</label>
+            <div class="col-sm-10">
+                <select id="LBOTE" class="form-control">
+                    <option>select</option>
+                    <option value="Arabic">Arabic</option>
+                    <option value="Cantonese">Cantonese</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="grade" class="col-sm-2 control-label">Grade</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="grade">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="aboriginalIslander" class="col-sm-2 control-label">Aboriginal or<br />Torres Strait Islander</label>
+            <div class="col-sm-10 checkbox">
+                <label>
+                    <input type="checkbox" id="aboriginalIslander" value="true">
+                    Yes
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-10 col-sm-offset-2 checkbox">
+                <button type="button" class="btn btn-primary btn-lg btn-block">Add Student</button>
+            </div>
+        </div>
+
+    </section>
+
+</div>

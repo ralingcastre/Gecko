@@ -228,6 +228,7 @@
     <Content Include="Content\css\material.css" />
     <Content Include="Content\css\metisMenu.css" />
     <Content Include="Content\css\morris.css" />
+    <Content Include="Content\css\qrapp.css" />
     <Content Include="Content\css\ripples.css" />
     <Content Include="Content\css\roboto.css" />
     <Content Include="Content\css\sb-admin-2.css" />
@@ -235,6 +236,7 @@
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\fonts\LICENSE.txt" />
     <Content Include="Content\fonts\Material-Design-Icons.svg" />
+    <Content Include="Content\js\dashboard\dashboardCtrl.js" />
     <Content Include="Content\js\lib\angular-resource.min.js" />
     <Content Include="Content\js\lib\angular-route.min.js" />
     <Content Include="Content\js\lib\angular.min.js" />
@@ -247,6 +249,7 @@
     <Content Include="Content\js\lib\ripples.min.js" />
     <Content Include="Content\js\qrApp.js" />
     <Content Include="Content\js\sampleData.js" />
+    <Content Include="Content\js\students\studentsCtrl.js" />
     <Content Include="Content\themes\base\accordion.css" />
     <Content Include="Content\themes\base\all.css" />
     <Content Include="Content\themes\base\autocomplete.css" />
@@ -371,6 +374,7 @@
     <Content Include="Views\Shared\_LayoutPrivate.cshtml" />
     <Content Include="Views\Shared\_NavTopRight.cshtml" />
     <Content Include="Views\Shared\_NavLeft.cshtml" />
+    <Content Include="Views\Shared\_AddStudent.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

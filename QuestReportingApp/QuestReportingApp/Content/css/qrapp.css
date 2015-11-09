@@ -1,0 +1,9 @@
+﻿body {
+}
+#page-wrapper {
+    padding:2.5em;
+}
+.page-content .jumbotron {
+    padding-left:2em;
+    padding-right:2em;
+}

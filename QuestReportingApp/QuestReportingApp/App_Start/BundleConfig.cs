@@ -17,7 +17,8 @@ namespace QuestReportingApp
                //"~/Content/css/material.css",
                //"~/Content/css/ripples.css",
                //"~/Content/css/roboto.css",
-               "~/Content/css/morris.css"
+               "~/Content/css/morris.css",
+               "~/Content/css/qrapp.css"
             ));
 
             /*
@@ -59,7 +60,9 @@ namespace QuestReportingApp
                 "~/Content/js/lib/angular.min.js",
                 "~/Content/js/lib/angular-route.min.js",
                 "~/Content/js/lib/angular-resource.min.js",
-                "~/Content/js/qrApp.js"
+                "~/Content/js/qrApp.js",
+                "~/Content/js/dashboard/dashboardCtrl.js",
+                "~/Content/js/students/studentsCtrl.js"
             ));
 
             #if DEBUG
