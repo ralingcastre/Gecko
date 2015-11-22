@@ -9,7 +9,6 @@ window.QRAPP.appId = 'qrApp';
 // Declare app level module and route config
 angular.module(window.QRAPP.appId, ['ngRoute']).
     config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
-
         $routeProvider
             .when('/', {
                 templateUrl: 'views/dashboard.html',

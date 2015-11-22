@@ -18,6 +18,7 @@ namespace QuestReportingApp
                //"~/Content/css/ripples.css",
                //"~/Content/css/roboto.css",
                "~/Content/css/morris.css",
+               "~/Content/css/animate.css",
                "~/Content/css/qrapp.css"
             ));
 

@@ -1,5 +1,74 @@
-﻿body {
+﻿html, body {
+    width:100%;
+    height:100%;
 }
+
+body {
+    background-color:#fff;
+}
+
+/* ==========================================================
+    public home page
+========================================================== */
+.bg-public {
+  background-image: url('../images/bg_grass.png'),
+                    url('../images/bg_top_left.png'),
+                    url('../images/bg_top_right.png'),
+                    url('../images/bg_lower_left.png'),
+                    url('../images/bg_lower_right.png'),
+                    url('../images/bg-pattern.png'),
+                    linear-gradient(to bottom,  rgba(198,237,250,1) 0%,rgba(255,255,255,1) 100%);
+
+  background-repeat: repeat-x,
+                     no-repeat,
+                     no-repeat,
+                     no-repeat,
+                     no-repeat,
+                     repeat;
+
+  background-position: left bottom,
+                       left 20%,
+                       80% 20%,
+                       left bottom,
+                       90% bottom,
+                       left top;
+
+}
+
+.logo-qr {
+    text-indent:-5000px;
+    overflow:hidden;
+    background: url('../images/creature_quest_logo.png');
+    background: url('../images/creature_quest_logo.svg'),
+    linear-gradient(transparent, transparent);
+    background-repeat:no-repeat;
+    background-position:0 0;
+    width:525px;
+    height:211px;
+    position:absolute;
+    left: 40%;
+    right: 50%;
+    top: 50%;
+    bottom: 50%;
+    margin-left: -400px;
+    margin-top: -105px;
+   /* transform: translate(-40%, -50%); */
+}
+
+#loginBox {
+    position:absolute;
+    right: 10%;
+    top:35%;
+    width:300px;
+}
+#loginBox .login-panel {
+    margin:0;
+}
+
+/* ==========================================================
+    private page
+========================================================== */
+
 #page-wrapper {
     padding:2.5em;
 }

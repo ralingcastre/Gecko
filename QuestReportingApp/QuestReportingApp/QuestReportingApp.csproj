@@ -223,6 +223,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\css\animate.css" />
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\font-awesome.css" />
     <Content Include="Content\css\material.css" />
@@ -236,6 +237,14 @@
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\fonts\LICENSE.txt" />
     <Content Include="Content\fonts\Material-Design-Icons.svg" />
+    <Content Include="Content\images\bg-pattern.png" />
+    <Content Include="Content\images\bg_grass.png" />
+    <Content Include="Content\images\bg_lower_left.png" />
+    <Content Include="Content\images\bg_lower_right.png" />
+    <Content Include="Content\images\bg_top_left.png" />
+    <Content Include="Content\images\bg_top_right.png" />
+    <Content Include="Content\images\creature_quest_logo.png" />
+    <Content Include="Content\images\creature_quest_logo.svg" />
     <Content Include="Content\js\dashboard\dashboardCtrl.js" />
     <Content Include="Content\js\lib\angular-resource.min.js" />
     <Content Include="Content\js\lib\angular-route.min.js" />
@@ -247,6 +256,7 @@
     <Content Include="Content\js\lib\morris.js" />
     <Content Include="Content\js\lib\raphael.js" />
     <Content Include="Content\js\lib\ripples.min.js" />
+    <Content Include="Content\js\publicHomeCtrl.js" />
     <Content Include="Content\js\qrApp.js" />
     <Content Include="Content\js\sampleData.js" />
     <Content Include="Content\js\students\studentsCtrl.js" />
