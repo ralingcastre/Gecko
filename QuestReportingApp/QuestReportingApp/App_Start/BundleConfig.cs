@@ -8,23 +8,21 @@ namespace QuestReportingApp
         // For more information on Bundling, visit http://go.microsoft.com/fwlink/?LinkId=254725
         public static void RegisterBundles(BundleCollection bundles)
         {
-            bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-{version}.js"));
 
-            bundles.Add(new ScriptBundle("~/bundles/jqueryui").Include(
-                        "~/Scripts/jquery-ui-{version}.js"));
+            bundles.Add(new StyleBundle("~/Content/basestyle").Include(
+               "~/Content/css/bootstrap.css",
+               "~/Content/css/font-awesome.css",
+               "~/Content/css/metisMenu.css",
+               "~/Content/css/sb-admin-2.css",
+               //"~/Content/css/material.css",
+               //"~/Content/css/ripples.css",
+               //"~/Content/css/roboto.css",
+               "~/Content/css/morris.css",
+               "~/Content/css/animate.css",
+               "~/Content/css/qrapp.css"
+            ));
 
-            bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
-                        "~/Scripts/jquery.unobtrusive*",
-                        "~/Scripts/jquery.validate*"));
-
-            // Use the development version of Modernizr to develop with and learn from. Then, when you're
-            // ready for production, use the build tool at http://modernizr.com to pick only the tests you need.
-            bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
-                        "~/Scripts/modernizr-*"));
-
-            bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/site.css"));
-
+            /*
             bundles.Add(new StyleBundle("~/Content/themes/base/css").Include(
                         "~/Content/themes/base/jquery.ui.core.css",
                         "~/Content/themes/base/jquery.ui.resizable.css",
@@ -38,6 +36,42 @@ namespace QuestReportingApp
                         "~/Content/themes/base/jquery.ui.datepicker.css",
                         "~/Content/themes/base/jquery.ui.progressbar.css",
                         "~/Content/themes/base/jquery.ui.theme.css"));
+           */
+
+
+            bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
+                         "~/Scripts/jquery-{version}.js"));
+            /*
+            bundles.Add(new ScriptBundle("~/bundles/jqueryui").Include(
+                        "~/Scripts/jquery-ui-{version}.js"));
+            */
+
+            bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
+                        "~/Scripts/jquery.unobtrusive*",
+                        "~/Scripts/jquery.validate*"));
+
+            bundles.Add(new ScriptBundle("~/bundles/base").Include(
+                "~/Content/js/lib/jquery-2.1.4.min.js",
+                "~/Content/js/lib/bootstrap.min.js",
+                "~/Content/js/lib/metisMenu.js",
+                "~/Content/js/lib/raphael.js",
+                "~/Content/js/lib/morris.js",
+                //"~/Content/js/lib/material.min.js",
+                //"~/Content/js/lib/ripples.min.js",
+                "~/Content/js/lib/angular.min.js",
+                "~/Content/js/lib/angular-route.min.js",
+                "~/Content/js/lib/angular-resource.min.js",
+                "~/Content/js/qrApp.js",
+                "~/Content/js/dashboard/dashboardCtrl.js",
+                "~/Content/js/students/studentsCtrl.js"
+            ));
+
+            #if DEBUG
+                BundleTable.EnableOptimizations = false;
+            #else
+                BundleTable.EnableOptimizations = true;
+            #endif
+
         }
     }
 }

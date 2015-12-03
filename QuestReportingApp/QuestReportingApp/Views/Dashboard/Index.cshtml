@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Welcome";
+    Layout = "~/Views/Shared/_LayoutPrivate.cshtml";
+}
+
+
+@section featured {
+
+}
+
+<section data-ng-view class="clearfix"></section>
+
+@section scripts {
+    <script src="~/Content/js/sampleData.js"></script>
+}
+
+@section pageEnd {
+    @{
+        Html.RenderPartial("_Templates");
+    }
+}
+

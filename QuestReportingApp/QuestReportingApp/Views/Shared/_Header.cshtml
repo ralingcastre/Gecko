@@ -1,0 +1,21 @@
+﻿<!-- Navigation -->
+<div class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/dashboard">Creature Quest Report Manager</a>
+    </div>
+    <div class="col-md-10">
+        <div class="search">
+            @{ Html.RenderPartial("_HeaderSearch"); }
+        </div>
+        <div class="tab">
+            @{ Html.RenderPartial("_NavTopRight"); }
+        </div>
+    </div>
+   @{ Html.RenderPartial("_NavLeft"); }
+</div>
